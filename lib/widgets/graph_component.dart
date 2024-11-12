@@ -243,7 +243,7 @@ class GraphComponent extends FlameGame
     addHorizontalOverlays(size);
     addVerticalOverlays(size);
     addVertexTapUpPanel(size);
-    if(options.useLegend) addLegendOverlays(size);
+    addLegendOverlays(size);
   }
 
   void showVertexTapUpPanel() {
